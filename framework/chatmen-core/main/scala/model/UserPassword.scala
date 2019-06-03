@@ -2,8 +2,9 @@ package chatmen.udb.model
 
 import java.time.{LocalDate, LocalDateTime}
 import ixias.model._
+import User._
 
-case class Password(
+case class UserPassword(
   id:        Option[User.Id],      // UserID 
   hash:      String,
   updatedAt: LocalDateTime = NOW,  // データ更新日
@@ -15,7 +16,7 @@ case class Password(
     Password.verify(password, hash)
 }
 
-object Password{
+object UserPassword{
 // --[ エンティティ定義 ]-----------------------------------------------------
   type WithNoId   = Entity.WithNoId   [User.Id, UserPassword]
   type EmbeddedId = Entity.EmbeddedId [User.Id, UserPassword]

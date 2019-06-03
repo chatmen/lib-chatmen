@@ -12,8 +12,8 @@ case class DirectMessage(
   createdAt: LocalDateTime         = NOW               // データ作成日
 )extends EntityModel[User.Id]
 
-object DirectMessage(
+object DirectMessage{
   // --[ エンティティ定義 ]-----------------------------------------------------
   type WithNoId   = Entity.WithNoId   [Id, DirectMessage]
   type EmbeddedId = Entity.EmbeddedId [Id, DirectMessage]
-)
+}

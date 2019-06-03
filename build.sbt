@@ -15,8 +15,8 @@ lazy val commonSettings = Seq(
     "Typesafe Releases"  at "http://repo.typesafe.com/typesafe/releases/",
     "Sonatype Release"   at "https://oss.sonatype.org/content/repositories/releases/",
     "Sonatype Snapshot"  at "https://oss.sonatype.org/content/repositories/snapshots/",
-   //"IxiaS Releases"     at "http://maven.ixias.net.s3-ap-northeast-1.amazonaws.com/releases",
-   // "IxiaS Snapshots"    at "http://maven.ixias.net.s3-ap-northeast-1.amazonaws.com/snapshots",
+    "IxiaS Releases"     at "http://maven.ixias.net.s3-ap-northeast-1.amazonaws.com/releases",
+    "IxiaS Snapshots"    at "http://maven.ixias.net.s3-ap-northeast-1.amazonaws.com/snapshots",
     "keyczar"            at "https://raw.githubusercontent.com/google/keyczar/master/java/maven/"
   ),
   // Scala compile options
@@ -29,14 +29,15 @@ lazy val commonSettings = Seq(
     "-Ywarn-adapted-args",     // Warn if an argument list is modified to match the receiver.
     "-Ywarn-dead-code",        // Warn when dead code is identified.
     "-Ywarn-inaccessible",     // Warn about inaccessible types in method signatures.
-    "-Ywarn-nullary-override", // Warn when non-nullary overrides nullary, e.g. def foo() over def foo.
+    "-Ywarn-nullary-override", // Warn when non-nullary overrides nullary, e.g. def foo() over def foq
     "-Ywarn-numeric-widen"     // Warn when numerics are widened.
   ),
   libraryDependencies ++= Seq(
-//    "net.ixias"    %% "ixias"     % "1.1.11",
-//  "net.ixias"    %% "ixias-aws" % "1.1.11",
 
     // --[ UnitTest ]-----------------------------------------
+    "net.ixias" %% "ixias"      % "1.1.11",
+    "net.ixias" %% "ixias-aws"  % "1.1.11",
+    "net.ixias" %% "ixias-play" % "1.1.11",
     "org.specs2"     %% "specs2-core"          % "3.9.1"  % Test,
     "org.specs2"     %% "specs2-matcher-extra" % "3.9.1"  % Test,
     "ch.qos.logback"  % "logback-classic"      % "1.1.3"  % Test,

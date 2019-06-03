@@ -11,7 +11,7 @@ case class BlockUser(
   createdAt: LocalDateTime         = NOW               // データ作成日  
 )extends EntityModel[User.Id]
 
-objet BlockUser{
+object BlockUser{
   type WithNoId   = Entity.WithNoId   [Id, BlockUser]
   type EmbeddedId = Entity.EmbeddedId [Id, BlockUser]
 }
