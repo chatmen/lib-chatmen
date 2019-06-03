@@ -12,8 +12,8 @@ case class ReTweet(
   createdAt: LocalDateTime         = NOW               // データ作成日  
 )extends EntityModel[Id]
 
-object ReTweet(
+object ReTweet{
   // --[ エンティティ定義 ]-----------------------------------------------------
-  type WithNoId   = Entity.WithNoId   [Id, ReTweet]
-  type EmbeddedId = Entity.EmbeddedId [Id, ReTweet]
-)
+  type WithNoId   = Entity.WithNoId   [User.Id, ReTweet]
+  type EmbeddedId = Entity.EmbeddedId [User.Id, ReTweet]
+}

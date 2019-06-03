@@ -1,6 +1,7 @@
 package chatmen.udb.model
 
 import ixias.model._
+import ixias.util.EnumStatus
 import java.time.{LocalDate, LocalDateTime}
 
 case class User(
@@ -22,6 +23,8 @@ object User{
   type EmbeddedId = Entity.EmbeddedId [Id, User]
 
     // --[ オブジェクトの生成 ]---------------------------------------------------
-  def apply(): WithNoId =
-    Entity.WithNoId { User(None) }
+  object WithNoId{
+    def apply(): WithNoId =
+      Entity.WithNoId { User(None) }
+  }
 }
