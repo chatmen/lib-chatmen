@@ -82,14 +82,6 @@ lazy val libUDB = (project in file("framework/chatmen-udb"))
   .settings(commonSettings:    _*)
   .settings(publisherSettings: _*)
 
-// Service libraries
-//~~~~~~~~~~~~~~~~~~
-lazy val libAUTH = (project in file("framework/chatmen-udb"))
-  .settings(name := "chatmen-udb")
-  .settings(commonSettings:    _*)
-  .settings(publisherSettings: _*)
-
-
 // Service META-package
 //~~~~~~~~~~~~~~~~~~~~~~~
 lazy val libMain = (project in file("."))
@@ -98,8 +90,6 @@ lazy val libMain = (project in file("."))
   .settings(publisherSettings: _*)
   .aggregate(libUDB)
   .dependsOn(libUDB)
-  .aggregate(libAUTH)
-  .dependsOn(libAUTH)
 
 // Setting for Prompt
 //~~~~~~~~~~~~~~~~~~~~
