@@ -7,8 +7,8 @@ import nextbeat.udb.model.{ User, UserPassword }
 
 // テーブル定義
 //~~~~~~~~~~~~~~
-case class UserEachRelationTable[P <: JdbcProfile]()(implicit val driver: P)
-    extends Table[UserEachRelation, P] with SlickColumnTypes[P] {
+case class UserBlockTable[P <: JdbcProfile]()(implicit val driver: P)
+    extends Table[UserPassword, P] with SlickColumnTypes[P] {
   import api._
 
   // --[ DNS定義 ] -------------------------------------------------------------
@@ -22,7 +22,7 @@ case class UserEachRelationTable[P <: JdbcProfile]()(implicit val driver: P)
   lazy val query = new Query
 
   // --[ テーブル定義 ] --------------------------------------------------------
-  class Table(tag: Tag) extends BasicTable(tag, "nextbeat_user_eachRelation") {
+  class Table(tag: Tag) extends BasicTable(tag, "nextbeat_user_block") {
     // Columns
     def uid       = column[User.Id]       ("uid",        O.UInt64, O.PrimaryKey)
     def targetid  = column[User.Id]       ("targetid",   O.UInt64, O.PrimaryKey)
@@ -37,11 +37,11 @@ case class UserEachRelationTable[P <: JdbcProfile]()(implicit val driver: P)
     // The * projection of the table
     def * = (uid, targetid, updatedAt, createdAt) <> (
       /** The bidirectional mappings : Tuple(table) => Model */
-      (t: TableElementTuple) => UserEachRelation(
+      (t: TableElementTuple) => UserPassword(
         Some(t._1), t._2, t._3, t._4
       ),
       /** The bidirectional mappings : Model => Tuple(table) */
-      (v: TableElementType)  => UserEachRelation.unapply(v).collect {
+      (v: TableElementType)  => UserPassword.unapply(v).collect {
         case t if t._1.isDefined => (
           t._1.get, t._2.get, LocalDateTime.now(), t._4
         )

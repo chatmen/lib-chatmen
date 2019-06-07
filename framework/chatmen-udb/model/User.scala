@@ -8,8 +8,8 @@ case class User(
   id:          Option[String],                         // ユーザID 
   name:        Option[String],                         // 名前
   email:       Option[String],
-  birthday:    LocalDate,
-  phoneNumber: Option[Int],
+  birthday:    LocalDate,                             // 誕生日
+  phoneNumber: Option[Int],                          // 携帯番号
   updatedAt:   LocalDateTime         = NOW,              // データ更新日
   createdAt:   LocalDateTime         = NOW               // データ作成日
 )extends EntityModel[Id]
