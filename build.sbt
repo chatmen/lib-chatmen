@@ -1,3 +1,4 @@
+
 /*
  * This file is part of the KIDSNA-SITTER service.
  *
@@ -82,14 +83,24 @@ lazy val libUDB = (project in file("framework/chatmen-udb"))
   .settings(commonSettings:    _*)
   .settings(publisherSettings: _*)
 
+// Service libraries
+//~~~~~~~~~~~~~~~~~~
+lazy val libCORE = (project in file("framework/chatmen-core"))
+  .settings(name := "chatmen-core")
+  .settings(commonSettings:    _*)
+  .settings(publisherSettings: _*)
+  .aggregate(libUDB)
+  .dependsOn(libUDB)
+
+
 // Service META-package
 //~~~~~~~~~~~~~~~~~~~~~~~
 lazy val libMain = (project in file("."))
   .settings(name := "chatmen")
   .settings(commonSettings:    _*)
   .settings(publisherSettings: _*)
-  .aggregate(libUDB)
-  .dependsOn(libUDB)
+  .aggregate(libUDB, libCORE)
+  .dependsOn(libUDB, libCORE)
 
 // Setting for Prompt
 //~~~~~~~~~~~~~~~~~~~~
