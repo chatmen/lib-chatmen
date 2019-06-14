@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93dbb33-bb8c-435e-9d73-4bc37cfc4f0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/Chat.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/DirectMessage.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/Favorite.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/Notification.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/ReTweet.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/ReturnMessage.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/main/scala/model/Tweet.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/User.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/UserBlock.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/UserEachRelation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/UserPassword.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/db/User.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/db/UserBlock.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/db/UserEachRelation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/persistence/db/UserPassword.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/.#Favorite.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/Favorite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/Favorite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -365,6 +354,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
