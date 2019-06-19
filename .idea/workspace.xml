@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93dbb33-bb8c-435e-9d73-4bc37cfc4f0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/.#Favorite.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/Favorite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/Favorite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala" beforeDir="false" afterPath="$PROJECT_DIR$/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,12 +30,24 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserBlock.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#34#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +65,7 @@
         <option value="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/Tweet.scala" />
         <option value="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala" />
         <option value="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala" />
+        <option value="$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala" />
       </list>
     </option>
   </component>
@@ -199,7 +214,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="121" />
+    <option name="y" value="23" />
     <option name="width" value="1502" />
     <option name="height" value="1027" />
   </component>
@@ -208,6 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,17 +276,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lib-chatmen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lib-chatmen" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="chatmen-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lib-chatmen" type="b2602c69:ProjectViewProjectNode" />
@@ -349,13 +355,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,6 +409,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4677370625000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="855100932" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3729638682" />
@@ -441,21 +447,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="121" width="1502" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="49" y="23" width="1502" height="1027" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17443408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3294979" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -463,16 +463,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="sbt" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="sbt" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -572,6 +577,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#34#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

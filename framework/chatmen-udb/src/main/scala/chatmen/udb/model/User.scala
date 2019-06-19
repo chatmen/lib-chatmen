@@ -6,7 +6,7 @@ import java.time.LocalDateTime
 
 import User._
 case class User(
-  id:         Option[Id],                             // ユーザID 
+  id:          Option[Id],                             // ユーザID
   name:        String,                                 // 名前
   email:       String,                                 // email
   phoneNumber: Option[Int]           = None,           // 携帯番号
@@ -23,7 +23,7 @@ object User {
 
     // --[ オブジェクトの生成 ]---------------------------------------------------
   object WithNoId{
-    def apply(id: Id, name: String, email : String): WithNoId =
+    def apply(name: String, email : String): WithNoId =
       Entity.WithNoId {  User(None, name, email) }
   }
 }

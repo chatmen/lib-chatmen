@@ -26,7 +26,7 @@ case class UserTable[P <: JdbcProfile]()(implicit val driver: P)
   class Table(tag: Tag) extends BasicTable(tag, "chatmen_user") {
 
     // Columns
-    /* @1 */ def uid          = column[User.Id]        ("id",          O.UInt64, O.PrimaryKey, O.AutoInc)
+    /* @1 */ def uid         = column[User.Id]        ("id",          O.UInt64, O.PrimaryKey, O.AutoInc)
     /* @2 */ def name        = column[String]         ("name",        O.Utf8Char255)
     /* @3 */ def email       = column[String]         ("email",       O.AsciiChar255)
     /* @4 */ def phoneNumber = column[Option[Int]]    ("phoneNumber", O.AsciiChar16)
@@ -56,4 +56,3 @@ case class UserTable[P <: JdbcProfile]()(implicit val driver: P)
     )
   }
 }
- 

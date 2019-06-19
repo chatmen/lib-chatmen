@@ -1,0 +1,514 @@
+INFO  time: initialize in 0.38s
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala
+6 18, 2019 5:16:03 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/DirectMessage.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Notification.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/ReturnMessage.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala
+6 18, 2019 5:47:33 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 278
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+6 18, 2019 5:50:54 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 581
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Favorite.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala' because it doesn't belong to a build target.
+6 18, 2019 6:01:22 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1341
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala in Option[chatmen.udb.model.User.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala in Option[chatmen.udb.model.User.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala, 157, 157, 167)
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala in Option[chatmen.udb.model.User.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala in Option[chatmen.udb.model.User.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala, 157, 157, 167)
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+6 18, 2019 6:24:39 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1871
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserEachRelation.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/ReTweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Tweet.scala
+6 18, 2019 6:55:57 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2514
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala in chatmen.udb.persistence.db.SlickResourceProvider[P]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala, 397, 400, 424)
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/model/Tweet.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals
+INFO  time: initialize in 0.33s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals
+INFO  time: initialize in 0.35s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/UserBlock.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+6 18, 2019 8:12:32 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+INFO  shutting down Metals
+INFO  time: initialize in 0.37s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+6 19, 2019 5:22:48 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 193
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 359, 359, 973)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 359, 359, 973)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 359, 359, 973)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 359, 359, 973)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 390, 390, 1002)
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickColumnTypes.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/SlickResourceProvider.scala
+6 19, 2019 5:44:08 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 895
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/SlickResourceProvider.scala' because it doesn't belong to a build target.
+6 19, 2019 5:52:40 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 5:53:01 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/User.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/model/User.scala
+6 19, 2019 6:01:59 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:02:07 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 223, 223, 238)
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[chatmen.core.model.Tweet.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[chatmen.core.model.Tweet.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[chatmen.core.model.Tweet.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[chatmen.core.model.Tweet.Id]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 157, 157, 167)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala in Option[Int]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala, 359, 359, 370)
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+6 19, 2019 6:12:19 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:13:15 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[String]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1660, 1660, 1674)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[String]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1660, 1660, 1674)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Int, Int, java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1726)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Int, Int, java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1726)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[Int]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1682, 1682, 1693)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[Int]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1682, 1682, 1693)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Option[Int], Int, java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1734)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Option[Int], Int, java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1734)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[Int]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1695, 1695, 1706)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[Int]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1695, 1695, 1706)
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+6 19, 2019 6:15:22 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/model/Tweet.scala
+6 19, 2019 6:16:18 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:16:19 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:16:31 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:16:38 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+6 19, 2019 6:16:42 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+6 19, 2019 6:22:35 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+6 19, 2019 6:24:37 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+6 19, 2019 6:24:37 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1625, 1625, 1641)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in Option[<error>]RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1625, 1625, 1641)
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Option[Int], Option[Int], java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1742)
+something's wrong: no file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala in (Option[<error>], Option[<error>], Option[String], Option[Int], Option[Int], java.time.LocalDateTime, java.time.LocalDateTime)RangePosition(file:///Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala, 1617, 1617, 1742)
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/db/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  code navigation does not work for the file '/Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/db/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/UserPassword.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-udb/src/main/scala/chatmen/udb/persistence/User.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+6 19, 2019 6:43:28 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+WARN  no build target: /Volumes/dev/nb/lib-chatmen/framework/chatmen-core/src/main/scala/chatmen/persistence/Tweet.scala
+INFO  shutting down Metals

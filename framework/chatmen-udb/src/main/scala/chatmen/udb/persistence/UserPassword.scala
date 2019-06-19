@@ -2,10 +2,9 @@ package chatmen.udb.persistence
 
 import scala.concurrent.Future
 import slick.jdbc.JdbcProfile
-
 import chatmen.udb.model.{User, UserPassword}
 import ixias.persistence.SlickRepository
-import chatmen.udb.persistence.db.UserPassword
+
 // ユーザ・パスワード管理
 //~~~~~~~~~~~~~~~~~~~~~~~~
 case class UserPasswordRepository[P <: JdbcProfile]()(implicit val driver: P)
@@ -16,9 +15,7 @@ case class UserPasswordRepository[P <: JdbcProfile]()(implicit val driver: P)
   import api._
 
   // --[ Methods ]--------------------------------------------------------------
-  /**
-   * パスワード情報を取得する
-   */
+  //パスワード情報を取得する
   def get(uid: Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserPasswordTable, "slave") { _
       .filter(_.uid === uid)
@@ -26,9 +23,7 @@ case class UserPasswordRepository[P <: JdbcProfile]()(implicit val driver: P)
     }
 
   // --[ Methods ]--------------------------------------------------------------
-  /**
-   * パスワード情報を更新する
-   */
+  //パスワード情報を更新する
   def update(passwd: EntityEmbeddedId): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserPasswordTable) { slick =>
       val row = slick.filter(_.uid === passwd.id)
@@ -41,9 +36,7 @@ case class UserPasswordRepository[P <: JdbcProfile]()(implicit val driver: P)
       } yield old
     }
 
-  /**
-   * パスワード情報を削除する
-   */
+  //パスワード情報を削除する
   def remove(uid: Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserPasswordTable) { slick =>
       val row = slick.filter(_.uid === uid)
