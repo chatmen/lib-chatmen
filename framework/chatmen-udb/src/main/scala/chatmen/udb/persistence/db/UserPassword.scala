@@ -36,11 +36,11 @@ case class UserPasswordTable[P <: JdbcProfile]()(implicit val driver: P)
 
     // The * projection of the table
     def * = (uid, hash, updatedAt, createdAt) <> (
-      /** The bidirectional mappings : Tuple(table) => Model */
+      //The bidirectional mappings : Tuple(table) => Model
       (t: TableElementTuple) => UserPassword(
         Some(t._1), t._2, t._3, t._4
       ),
-      /** The bidirectional mappings : Model => Tuple(table) */
+      //The bidirectional mappings : Model => Tuple(table)
       (v: TableElementType)  => UserPassword.unapply(v).collect {
         case t if t._1.isDefined => (
           t._1.get, t._2, LocalDateTime.now(), t._4
