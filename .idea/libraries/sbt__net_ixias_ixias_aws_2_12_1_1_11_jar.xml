@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: net.ixias:ixias-aws_2.12:1.1.11:jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/http/maven.ixias.net.s3-ap-northeast-1.amazonaws.com/releases/net/ixias/ixias-aws_2.12/1.1.11/ixias-aws_2.12-1.1.11.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
