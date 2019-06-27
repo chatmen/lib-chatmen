@@ -10,7 +10,7 @@ import scala.sys.process._
 lazy val branch  = ("git branch".lineStream_!).find{_.head == '*'}.map{_.drop(2)}.getOrElse("")
 lazy val release = (branch == "master" || branch.startsWith("release"))
 lazy val commonSettings = Seq(
-  organization := "chatmen",
+  organization := "chatmen-app",
   scalaVersion := "2.12.8",
   resolvers ++= Seq(
     "Typesafe Releases"  at "http://repo.typesafe.com/typesafe/releases/",
@@ -25,7 +25,7 @@ lazy val commonSettings = Seq(
     "-deprecation",            // Emit warning and location for usages of deprecated APIs.
     "-feature",                // Emit warning and location for usages of features that should be imported explicitly.
     "-unchecked",              // Enable additional warnings where generated code depends on assumptions.
-    "-Xfatal-warnings",        // Fail the compilation if there are any warnings.
+    "-Xfatal-warnings",        // Fail the compilation if there are any warnings.m
     "-Xlint",                  // Enable recommended additional warnings.
     "-Ywarn-adapted-args",     // Warn if an argument list is modified to match the receiver.
     "-Ywarn-dead-code",        // Warn when dead code is identified.
@@ -51,44 +51,18 @@ lazy val commonSettings = Seq(
   )
 )
 
-// Publisher Setting
-//~~~~~~~~~~~~~~~~~~~
-import ReleaseTransformations._
-lazy val publisherSettings = Seq(
-  publishTo := {
-    val path = if (release) "releases" else "snapshots"
-    Some("Nextbeat snapshots" at "s3://maven.nextbeat.net.s3-ap-northeast-1.amazonaws.com/" + path)
-  },
-  publishArtifact in (Compile, packageDoc) := false,  // disable publishing the Doc jar
-  publishArtifact in (Compile, packageSrc) := false,  // disable publishing the sources jar
-  releaseProcess := Seq[ReleaseStep](
-    checkSnapshotDependencies,
-    inquireVersions,
-    runClean,
-    // runTest,
-    setReleaseVersion,
-    commitReleaseVersion,
-    tagRelease,
-    publishArtifacts,
-    setNextVersion,
-    commitNextVersion,
-    pushChanges
-  )
-)
 
 // Service libraries
 //~~~~~~~~~~~~~~~~~~
 lazy val libUDB = (project in file("framework/chatmen-udb"))
   .settings(name := "chatmen-udb")
   .settings(commonSettings:    _*)
-  .settings(publisherSettings: _*)
 
 // Service libraries
 //~~~~~~~~~~~~~~~~~~
 lazy val libCORE = (project in file("framework/chatmen-core"))
   .settings(name := "chatmen-core")
   .settings(commonSettings:    _*)
-  .settings(publisherSettings: _*)
   .aggregate(libUDB)
   .dependsOn(libUDB)
 
@@ -98,7 +72,6 @@ lazy val libCORE = (project in file("framework/chatmen-core"))
 lazy val libMain = (project in file("."))
   .settings(name := "chatmen")
   .settings(commonSettings:    _*)
-  .settings(publisherSettings: _*)
   .aggregate(libUDB, libCORE)
   .dependsOn(libUDB, libCORE)
 

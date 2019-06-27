@@ -9,7 +9,7 @@ case class User(
   id:          Option[Id],                             // ユーザID
   name:        String,                                 // 名前
   email:       String,                                 // email
-  phoneNumber: Option[Int]           = None,           // 携帯番号
+  phoneNumber: Option[String]        = None,           // 携帯番号
   updatedAt:   LocalDateTime         = NOW,            // データ更新日
   createdAt:   LocalDateTime         = NOW             // データ作成日
 ) extends EntityModel[Id]
