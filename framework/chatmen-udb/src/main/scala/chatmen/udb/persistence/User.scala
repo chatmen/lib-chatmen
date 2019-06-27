@@ -24,6 +24,14 @@ case class UserRepository[P <: JdbcProfile]()(implicit val driver: P)
     }
 
   /**
+    * ユーザ情報を取得する
+    */
+  def getAll(): Future[Seq[EntityEmbeddedId]] =
+    RunDBAction(UserTable, "slave") { _
+                                       .result
+    }
+
+  /**
    * IDからユーザ情報を取得する
    */
   def filter(cursor: Cursor): Future[Seq[EntityEmbeddedId]] =
