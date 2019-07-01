@@ -26,18 +26,18 @@ case class TweetTable[P <: JdbcProfile]()(implicit val driver: P)
   class Table(tag: Tag) extends BasicTable(tag, "chatmen_tweet") {
 
     //Columns
-    /* @1 */ def id             = column[Tweet.Id]         ("id",            O.UInt64, O.PrimaryKey, O.AutoInc)
-    /* @2 */ def uid            = column[Option[User.Id]]  ("uid",           O.UInt64)
-    /* @3 */ def text           = column[Option[String]]   ("text",          O.Utf8Char255)
-    /* @4 */ def favoriteNumber = column[Option[Int]]      ("favoriteConut", O.UInt16)
-    /* @5 */ def reTweetNumber  = column[Option[Int]]      ("reTweetCount",  O.UInt16)
-    /* @6 */ def updatedAt      = column[LocalDateTime]    ("updated_at",    O.TsCurrent)
-    /* @7 */ def createdAt      = column[LocalDateTime]    ("created_at",    O.Ts)
+    /* @1 */ def id             = column[Tweet.Id]        ("id",             O.UInt64, O.PrimaryKey, O.AutoInc)
+    /* @2 */ def uid            = column[Option[User.Id]] ("uid",            O.UInt64)
+    /* @3 */ def text           = column[Option[String]]  ("text",           O.Utf8Char255)
+    /* @4 */ def favoriteNumber = column[Int]             ("favoriteNumber", O.UInt16)
+    /* @5 */ def reTweetNumber  = column[Int]             ("reTweetNumber",  O.UInt16)
+    /* @6 */ def updatedAt      = column[LocalDateTime]   ("updated_at",     O.TsCurrent)
+    /* @7 */ def createdAt      = column[LocalDateTime]   ("created_at",     O.Ts)
 
      //All columns as a tuple
     type TableElementTuple = (
       Option[Tweet.Id], Option[User.Id], Option[String],
-      Option[Int], Option[Int], LocalDateTime, LocalDateTime
+      Int, Int, LocalDateTime, LocalDateTime
     )
 
      //The * projection of the table
