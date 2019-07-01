@@ -6,13 +6,13 @@ import chatmen.udb.model.User
 
 import Tweet._
 case class Tweet(
-  id:        Option[Tweet.Id],                               // TweetID
-  userId:    Option[User.Id],                          // UserID
-  text:      Option[String]        = None,             // text本文
-  favoriteNumber : Option[Int]     = None,
-  reTweetNumber : Option[Int]      = None,
-  updatedAt: LocalDateTime         = NOW,              // データ更新日
-  createdAt: LocalDateTime         = NOW               // データ作成日
+  id:             Option[Tweet.Id],                     // TweetID
+  uid:            Option[User.Id],                      // UserID
+  text:           Option[String]    = None,             // text本文
+  favoriteNumber: Int               = 0,
+  reTweetNumber:  Int               = 0,
+  updatedAt:      LocalDateTime     = NOW,              // データ更新日
+  createdAt:      LocalDateTime     = NOW               // データ作成日
 )extends EntityModel[Id]
 
 object Tweet {
