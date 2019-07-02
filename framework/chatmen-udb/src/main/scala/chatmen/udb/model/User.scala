@@ -24,6 +24,6 @@ object User {
     // --[ オブジェクトの生成 ]---------------------------------------------------
   object WithNoId{
     def apply(name: String, email : String): WithNoId =
-      Entity.WithNoId {  User(None, name, email) }
+      Entity.WithNoId { User(None, name, email) }
   }
 }
