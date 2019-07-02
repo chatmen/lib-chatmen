@@ -22,30 +22,28 @@
 //   lazy val query = new Query
 
 //   // --[ テーブル定義 ] --------------------------------------------------------
-//   class Table(tag: Tag) extends BasicTable(tag, "chatmen_user_eachRelation") {
+//   class Table(tag: Tag) extends BasicTable(tag, "userEachRelation") {
 //     // Columns
-//     def uid       = column[User.Id]       ("uid",        O.UInt64, O.PrimaryKey)
-//     def targetid  = column[User.Id]       ("targetid",   O.UInt64, O.PrimaryKey)
-//     def updatedAt = column[LocalDateTime] ("updated_at", O.TsCurrent)
-//     def createdAt = column[LocalDateTime] ("created_at", O.Ts)
+//     def relationId= column[UserEachRelation.Id]              ("relationId", O.UInt64, O.PrimaryKey, O.AutoInc)
+//     def fromId    = column[Optioin[User.Id]]  ("uid",       O.UInt64)
+//     def targetId  = column[Option[User.Id]]  ("targetid",   O.UInt64)
+//     def updatedAt = column[LocalDateTime]    ("updated_at", O.TsCurrent)
+//     def createdAt = column[LocalDateTime]    ("created_at", O.Ts)
 
 //     // All columns as a tuple
 //     type TableElementTuple = (
-//       User.Id, User.Id, LocalDateTime, LocalDateTime
+//       UserEachRelation.Id, Option[User.Id], Option[User.Id], LocalDateTime, LocalDateTime
 //     )
 
 //     // The * projection of the table
-//     def * = (uid, targetid, updatedAt, createdAt) <> (
-//       /** The bidirectional mappings : Tuple(table) => Model */
-//       (t: TableElementTuple) => UserEachRelation(
-//         Some(t._1), Some(t._2), t._3, t._4
-//       ),
-//       /** The bidirectional mappings : Model => Tuple(table) */
-//       (v: TableElementType)  => UserEachRelation.unapply(v).collect {
-//         case t if t._1.isDefined => (
-//           t._1.get, t._2.get, LocalDateTime.now(), t._4
-//         )
-//       }
+//     def * = (relationid.?, fromid, targetid, updatedAt, createdAt) <> (
+//       (t: TableElementTuple) => {
+//         UserEachRelation(t._1, t._2, t._3, t._4, t._5)
+//       },
+//       (v: TableElementType)  => UserEachRelation.unapply(v).map { t => (
+//         t._1, Some(t._2), Some(t._3),
+//         LocalDateTime.now(), t._5
+//       ) }
 //     )
 //   }
 // }
