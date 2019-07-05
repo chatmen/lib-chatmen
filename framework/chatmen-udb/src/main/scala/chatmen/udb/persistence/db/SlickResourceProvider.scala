@@ -9,10 +9,12 @@ trait SlickResourceProvider[P <: JdbcProfile] {
   // --[ テーブル定義 ] --------------------------------------------------------
   object UserTable                  extends UserTable
   object UserPasswordTable          extends UserPasswordTable
+  object UserEachRelation           extends UserEachRelationTable
 
   // --[ 全てのテーブル定義 ] --------------------------------------------------
   lazy val AllTables = Seq(
     UserTable,
-    UserPasswordTable
+    UserPasswordTable,
+    UserEachRelation
   )
 }
