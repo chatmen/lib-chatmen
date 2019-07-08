@@ -28,7 +28,7 @@ case class TweetTable[P <: JdbcProfile]()(implicit val driver: P)
     //Columns
     /* @1 */ def id             = column[Tweet.Id]        ("id",             O.UInt64, O.PrimaryKey, O.AutoInc)
     /* @2 */ def uid            = column[Option[User.Id]] ("uid",            O.UInt64)
-    /* @3 */ def text           = column[Option[String]]  ("text",           O.Utf8Char255)
+    /* @3 */ def text           = column[String]          ("text",           O.Utf8Char255)
     /* @4 */ def favoriteNumber = column[Int]             ("favoriteNumber", O.UInt16)
     /* @5 */ def reTweetNumber  = column[Int]             ("reTweetNumber",  O.UInt16)
     /* @6 */ def updatedAt      = column[LocalDateTime]   ("updated_at",     O.TsCurrent)
@@ -36,7 +36,7 @@ case class TweetTable[P <: JdbcProfile]()(implicit val driver: P)
 
      //All columns as a tuple
     type TableElementTuple = (
-      Option[Tweet.Id], Option[User.Id], Option[String],
+      Option[Tweet.Id], Option[User.Id], String,
       Int, Int, LocalDateTime, LocalDateTime
     )
 
