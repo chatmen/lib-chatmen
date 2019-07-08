@@ -8,7 +8,7 @@ import Tweet._
 case class Tweet(
   id:             Option[Tweet.Id],                     // TweetID
   uid:            Option[User.Id],                      // UserID
-  text:           Option[String]    = None,             // text本文
+  text:           String,                               // text本文
   favoriteNumber: Int               = 0,
   reTweetNumber:  Int               = 0,
   updatedAt:      LocalDateTime     = NOW,              // データ更新日
@@ -24,7 +24,7 @@ object Tweet {
 
   // --[ オブジェクトの生成 ]---------------------------------------------------
   object WithNoId{
-    def apply(uid: User.Id): WithNoId =
-      Entity.WithNoId { Tweet(None,Some(uid)) }
+    def apply(uid: User.Id,text:String): WithNoId =
+      Entity.WithNoId { Tweet(None,Some(uid),text) }
   }
 }
