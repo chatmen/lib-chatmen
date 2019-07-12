@@ -1,4 +1,3 @@
-
 package chatmen.udb.persistence
 
 import scala.concurrent.Future
@@ -19,14 +18,14 @@ case class UserEachRelationRepository[P <: JdbcProfile]()(implicit val driver: P
   //フォロー・フォロワーの情報を取得する
   def get(uid: ID): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserEachRelationTable, "slave") { _
-                                               .filter(_.id === id)
+                                               .filter(_.uid === uid)
                                                .result.headOption
     }
 
   //ユーザーのフォロー情報を取得
   def getFollowsOfUser(uid: User.Id): Future[Seq[User.Id]] = {
-    RunDBAction(FollowRelationTable,"slave") { _
-                                                .filter(_.targetid === id)
+    RunDBAction(UserEachRelationTable,"slave") { _
+                                                .filter(_.targetid === uid)
                                                 .map(x => x.fromid)
                                                 .result
     }
@@ -34,8 +33,8 @@ case class UserEachRelationRepository[P <: JdbcProfile]()(implicit val driver: P
 
   //ユーザーのフォロワー情報を取得
   def getFollowersOfUser(uid: User.Id): Future[Seq[User.Id]] = {
-    RunDBAction(FollowRelationTable,"slave") { _
-                                                .filter(_.targetid === id)
+    RunDBAction(UserEachRelationTable,"slave") { _
+                                                .filter(_.targetid === uid)
                                                 .map(x => x.fromid)
                                                 .result
     }
