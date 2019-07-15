@@ -1,4 +1,4 @@
-package chatmen.udb
+package chatmen.core
 
 package object persistence {
 
@@ -6,6 +6,6 @@ package object persistence {
 
   object onMySQL {
     implicit lazy val driver = slick.jdbc.MySQLProfile
-    object UserRepository extends UserRepository
+    object TweetRepository extends TweetRepository
   }
 }

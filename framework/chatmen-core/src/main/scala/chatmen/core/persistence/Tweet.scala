@@ -22,10 +22,11 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
       .result.headOption
     }
 
-  // def getAll: Future[Option[EntityEmbeddedId]] =
+  // def getAll(): Future[Option[EntityEmbeddedId]] =
   //   RunDBAction(TweetTable, "slave") { _
   //     .result
   //   }
+
   //ツイート情報を更新する
   def add(data: EntityWithNoId): Future[Id] =
     RunDBAction(TweetTable) { slick =>
