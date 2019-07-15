@@ -18,7 +18,7 @@ case class UserPasswordRepository[P <: JdbcProfile]()(implicit val driver: P)
   //パスワード情報を取得する
   def get(uid: Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserPasswordTable, "slave") { _
-      .filter(_.uid === buid)
+      .filter(_.uid === uid)
       .result.headOption
     }
 

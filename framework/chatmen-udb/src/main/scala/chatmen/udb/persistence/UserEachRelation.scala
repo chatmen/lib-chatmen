@@ -9,24 +9,24 @@ import ixias.persistence.SlickRepository
 // フォロー情報管理
 //~~~~~~~~~~~~~~~~
 case class UserEachRelationRepository[P <: JdbcProfile]()(implicit val driver: P)
-    extends SlickRepository[User.Id, User, P]
+    extends SlickRepository[UserEachRelation.Id, UserEachRelation, P]
     with db.SlickColumnTypes[P]
     with db.SlickResourceProvider[P]
 {
   import api._
 
   //フォロー・フォロワーの情報を取得する
-  def get(uid: ID): Future[Option[EntityEmbeddedId]] =
+  def get(uid: Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserEachRelationTable, "slave") { _
-                                               .filter(_.uid === uid)
+                                               .filter(_.relationid === uid)
                                                .result.headOption
     }
 
   //ユーザーのフォロー情報を取得
   def getFollowsOfUser(uid: User.Id): Future[Seq[User.Id]] = {
     RunDBAction(UserEachRelationTable,"slave") { _
-                                                .filter(_.targetid === uid)
-                                                .map(x => x.fromid)
+                                                .filter(_.fromid === uid)
+                                                .map(x => x.targetid)
                                                 .result
     }
   }
@@ -42,12 +42,12 @@ case class UserEachRelationRepository[P <: JdbcProfile]()(implicit val driver: P
     //フォロー・フォロワー情報を追加
   def add(user: EntityWithNoId): Future[Id] =
     RunDBAction(UserEachRelationTable) { slick =>
-      slick returning slick.map(_.uid) += user.v
+      slick returning slick.map(_.relationid) += user.v
     }
 
   def update(user: EntityEmbeddedId): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserEachRelationTable) { slick =>
-      val row = slick.filter(_.uid === user.id)
+      val row = slick.filter(_.relationid === user.id)
       for {
         old <- row.result.headOption
         _   <- old match {
@@ -57,7 +57,7 @@ case class UserEachRelationRepository[P <: JdbcProfile]()(implicit val driver: P
       } yield old
     }
 
-  def remove(uid: Id): Future[Option[EntityEmbeddedId]] =
+  def remove(relationid: Id): Future[Option[EntityEmbeddedId]] =
     Future.failed(new UnsupportedOperationException)
   // /**
   //  * IDからユーザ情報を取得する

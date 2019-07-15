@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 
 import chatmen.udb.model.UserEachRelation._
 case class UserEachRelation(
-  id:         Option[Id],                               // PrimaryID
+  id: Option[Id],                               // PrimaryID
   fromid:     User.Id,                                  // 自分のID
   targetid:   User.Id,                                  // 相手のID
   updatedAt:  LocalDateTime         = NOW,              // データ更新日
@@ -20,7 +20,7 @@ object UserEachRelation{
 
   // --[ オブジェクトの生成 ]---------------------------------------------------
   object WithNoId{
-    def apply(fromId: User.Id, targetId: User.Id): WithNoId =
-      Entity.WithNoId {UserEachRelation(None, fromId, targetId) }
+    def apply(fromid: User.Id, targetid: User.Id): WithNoId =
+      Entity.WithNoId {UserEachRelation(None, fromid, targetid) }
   }
 }

@@ -31,6 +31,10 @@ case class UserEachRelationTable[P <: JdbcProfile]()(implicit val driver: P)
     def updatedAt = column[LocalDateTime]        ("updated_at", O.TsCurrent)
     def createdAt = column[LocalDateTime]        ("created_at", O.Ts)
 
+
+    // // Indexes
+    // def ukey02 = index("ukey02", (email), unique = true)
+
     // All columns as a tuple
     type TableElementTuple = (
      Option[ UserEachRelation.Id], User.Id, User.Id, LocalDateTime, LocalDateTime
