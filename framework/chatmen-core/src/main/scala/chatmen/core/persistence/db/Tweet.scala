@@ -23,7 +23,7 @@ case class TweetTable[P <: JdbcProfile]()(implicit val driver: P)
   lazy val query = new Query
 
   //--[ テーブル定義 ] --------------------------------------------------------
-  class Table(tag: Tag) extends BasicTable(tag, "chatmen_tweet") {
+  class Table(tag: Tag) extends BasicTable(tag, "tweet") {
 
     //Columns
     /* @1 */ def id             = column[Tweet.Id]        ("id",              O.UInt64, O.PrimaryKey, O.AutoInc)
