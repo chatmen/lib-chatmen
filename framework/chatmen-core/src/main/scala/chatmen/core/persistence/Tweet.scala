@@ -4,6 +4,7 @@ import chatmen.core.model.Tweet
 import scala.concurrent.Future
 import slick.jdbc.JdbcProfile
 import ixias.persistence.SlickRepository
+import chatmen.udb.model.User
 
 // ユーザ・パスワード管理
 //~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,10 +17,22 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
 
   // --[ Methods ]--------------------------------------------------------------
   //ツイート情報を取得する
-  def get(id: Id): Future[Option[EntityEmbeddedId]] =
+  def get(id: Tweet.Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(TweetTable, "slave") { _
       .filter(_.id === id)
       .result.headOption
+    }
+
+  def filterByUserId(uid: User.Id): Future[Seq[EntityEmbeddedId]] =
+    RunDBAction(TweetTable, "slave") { _
+      .filter(_.uid === uid)
+      .result
+    }
+
+  def filterByUserIds(uid: Seq[User.Id]): Future[Seq[EntityEmbeddedId]] =
+    RunDBAction(TweetTable, "slave") { _
+                                        .filter(_.uid inSet uid)
+                                        .result
     }
 
   // def getAll(): Future[Option[EntityEmbeddedId]] =
