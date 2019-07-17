@@ -13,5 +13,5 @@
 INSERT INTO tweet (uid, text, favorite_number, reTweet_number)
 VALUES
 ('4', 'hoge1', '1', '2'),
-('4', 'hoge2', '30', '4'),
-('3', 'tweetだよ', '5', '6');
+('4', 'hoge2', '3', '4'),
+('3', 'tweet', '5', '6');
