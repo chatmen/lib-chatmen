@@ -23,6 +23,12 @@ case class UserRepository[P <: JdbcProfile]()(implicit val driver: P)
       .result.headOption
     }
 
+  def getEmail(email: String): Future[Option[EntityEmbeddedId]] =
+    RunDBAction(UserTable, "slave") { _
+                                       .filter(_.email   === email)
+                                       .result.headOption
+    }
+
   /**
     * ユーザ情報を取得する
     */
@@ -52,7 +58,7 @@ case class UserRepository[P <: JdbcProfile]()(implicit val driver: P)
   }
 
   /**
-   * ユーザ情報を追加する
+   * ユーザ情報を追加する, 会員登録
    */
   def add(user: EntityWithNoId): Future[Id] =
     RunDBAction(UserTable) { slick =>

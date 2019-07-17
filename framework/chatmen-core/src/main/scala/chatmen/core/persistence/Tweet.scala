@@ -22,13 +22,13 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
       .filter(_.id === id)
       .result.headOption
     }
-
+  //UserIdから対象の1件のTweetの全データをとる
   def filterByUserId(uid: User.Id): Future[Seq[EntityEmbeddedId]] =
     RunDBAction(TweetTable, "slave") { _
       .filter(_.uid === uid)
       .result
     }
-
+  //UserIdから対象の全てのTweetの全データが入ったものをリストでとる
   def filterByUserIds(uid: Seq[User.Id]): Future[Seq[EntityEmbeddedId]] =
     RunDBAction(TweetTable, "slave") { _
                                         .filter(_.uid inSet uid)
