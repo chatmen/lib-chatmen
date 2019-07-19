@@ -23,6 +23,9 @@ case class UserRepository[P <: JdbcProfile]()(implicit val driver: P)
       .result.headOption
     }
 
+  /**
+    * メールアドレスを取得する
+    */
   def getEmail(email: String): Future[Option[EntityEmbeddedId]] =
     RunDBAction(UserTable, "slave") { _
                                        .filter(_.email   === email)
