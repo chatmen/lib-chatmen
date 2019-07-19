@@ -16,7 +16,7 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
   import api._
 
   // --[ Methods ]--------------------------------------------------------------
-  //ツイート情報を取得する
+  //ツイート情報を取得する(Tweetの全項目の情報)
   def get(id: Tweet.Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(TweetTable, "slave") { _
       .filter(_.id === id)
