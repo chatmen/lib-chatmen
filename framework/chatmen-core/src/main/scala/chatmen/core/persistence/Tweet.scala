@@ -40,7 +40,7 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
   //     .result
   //   }
 
-  //ツイート情報を更新する
+  //ツイート情報を更新する(ツイートをする)
   def add(data: EntityWithNoId): Future[Id] =
     RunDBAction(TweetTable) { slick =>
       slick returning slick.map(_.id) += data.v
@@ -60,7 +60,7 @@ case class TweetRepository[P <: JdbcProfile]()(implicit val driver: P)
       } yield old
     }
 
-  //パスワード情報を削除する
+  //ツイート情報を削除する
   def remove(id: Id): Future[Option[EntityEmbeddedId]] =
     RunDBAction(TweetTable) { slick =>
       val row = slick.filter(_.id === id)
