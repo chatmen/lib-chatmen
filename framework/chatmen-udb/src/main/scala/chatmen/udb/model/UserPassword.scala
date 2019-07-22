@@ -20,9 +20,12 @@ object UserPassword{
   type WithNoId   = Entity.WithNoId   [User.Id, UserPassword]
   type EmbeddedId = Entity.EmbeddedId [User.Id, UserPassword]
 
+
   // --[ オブジェクトの生成 ]---------------------------------------------------
-  def apply(uid: User.Id, password: String): EmbeddedId =
-    Entity.EmbeddedId { new UserPassword(Some(uid), hash(password))}
+  object WithNoId{
+    def apply(uid: User.Id, password: String): EmbeddedId=
+      Entity.EmbeddedId { UserPassword(Some(uid), hash(password))}
+  }
 
   // --[ パスワード文字列操作 ]-------------------------------------------------
   //PBKDF2とランダムSaltを利用してパスワードのハッシュ値を生成する

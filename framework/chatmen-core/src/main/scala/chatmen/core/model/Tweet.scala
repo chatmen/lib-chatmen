@@ -6,7 +6,7 @@ import chatmen.udb.model.User
 
 import Tweet._
 case class Tweet(
-  id:             Option[Tweet.Id],                     // TweetID
+  id:             Option[Id],                     // TweetID
   uid:            Option[User.Id],                      // UserID
   text:           String,                               // text本文
   favoriteNumber: Int               = 0,
