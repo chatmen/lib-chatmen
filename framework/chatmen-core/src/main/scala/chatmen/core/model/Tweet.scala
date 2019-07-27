@@ -7,7 +7,7 @@ import chatmen.udb.model.User
 import Tweet._
 case class Tweet(
   id:             Option[Id],                     // TweetID
-  uid:            Option[User.Id],                      // UserID
+  uid:            User.Id,                      // UserID
   text:           String,                               // text本文
   favoriteNumber: Int               = 0,
   reTweetNumber:  Int               = 0,
@@ -25,6 +25,6 @@ object Tweet {
   // --[ オブジェクトの生成 ]---------------------------------------------------
   object WithNoId{
     def apply(uid: User.Id,text:String): WithNoId =
-      Entity.WithNoId { Tweet(None,Some(uid),text) }
+      Entity.WithNoId { Tweet(None,uid,text) }
   }
 }
