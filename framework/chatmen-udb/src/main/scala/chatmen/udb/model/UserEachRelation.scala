@@ -5,9 +5,9 @@ import java.time.LocalDateTime
 
 import chatmen.udb.model.UserEachRelation._
 case class UserEachRelation(
-  id: Option[Id],                               // PrimaryID
-  fromid:     User.Id,                                  // 自分のID
-  targetid:   User.Id,                                  // 相手のID
+  id          Option[Id],                               // PrimaryID
+  fromid:     User.Id,                                  // する側のID
+  targetid:   User.Id,                                  // される側のID
   updatedAt:  LocalDateTime         = NOW,              // データ更新日
   createdAt:  LocalDateTime         = NOW               // データ作成日
 )extends EntityModel[Id]
